@@ -49,7 +49,7 @@ class Solution {
 		// new_id 가 2자 이하라면, 마지막 문자를 반복하여 3자 이상으로 변경
 		while (new_id.length() < 3) {
 			new_id += new_id.charAt(new_id.length() - 1);
-		}
+		} 
 		
 		String ret = new_id;
 		return ret;
